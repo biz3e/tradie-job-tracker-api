@@ -141,7 +141,7 @@ address/api/jobs?sort_by=mobile&order_by=asc&date=gte:yyyy-MM-dd&date=lte:yyyy-M
 ```
 
 ### Change Status and/or Notes
-* Path: address/api/user/jobs/_id
+* Path: address/api/jobs/_id
 * Request Type: PATCH
 * Replace _id with the value of _id for the associated job
 * Attach Bearer Access Token (Bearer accessToken) as Authorization header
